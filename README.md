@@ -59,6 +59,8 @@ mylumina/
 │   │   ├── SubscriptionPlanModel.php
 │   │   └── UsageReportModel.php
 │   ├── middleware/        # میان‌افزارها
+|   |   ├── AuthMiddleware.php
+|   |   └── RoleMiddleware.php
 │   ├── helpers/           # توابع کمکی
 │   │   ├── functions.php
 │   │   └── widget_helper.php
