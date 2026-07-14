@@ -206,9 +206,9 @@ mysql -u db_user -p lumina_db < database/schema.sql
 
 ## 📞 پشتیبانی
 
-- **ایمیل**: support@your-domain.com  
-- **وب‌سایت**: https://your-domain.com  
-- **مخزن گیت‌هاب**: https://github.com/your-username/lumina
+- **ایمیل**: hamedrouhani@gmail.com  
+- **وب‌سایت**: https://aiproductivitysterategy.ir  
+- **مخزن گیت‌هاب**: https://github.com/HamedRouhani/lumina
 
 ---
 
