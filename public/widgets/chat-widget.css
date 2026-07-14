@@ -1,0 +1,55 @@
+/* chat-widget.css - استایل‌های اضافی ویجت */
+/* این فایل اختیاری است و برای سفارشی‌سازی بیشتر می‌توانید استفاده کنید */
+
+/* استایل سفارشی دکمه */
+.chat-widget-container-iframe.custom-button .chat-widget-button-iframe {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* انیمیشن تپش برای جلب توجه */
+@keyframes chatWidgetPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(102, 126, 234, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(102, 126, 234, 0);
+    }
+}
+
+.chat-widget-container-iframe.has-unread .chat-widget-button-iframe {
+    animation: chatWidgetPulse 1.5s infinite;
+}
+
+/* حالت دسکتاپ */
+@media (min-width: 769px) {
+    .chat-widget-window-iframe {
+        width: 400px;
+        height: 560px;
+    }
+}
+
+/* حالت موبایل */
+@media (max-width: 768px) {
+    .chat-widget-container-iframe {
+        bottom: 15px;
+        right: 15px !important;
+        left: auto !important;
+    }
+    
+    .chat-widget-window-iframe {
+        right: 10px !important;
+        left: 10px !important;
+        width: calc(100vw - 20px);
+        bottom: 80px;
+    }
+}
+
+/* حالت تاریک (اختیاری) */
+@media (prefers-color-scheme: dark) {
+    .chat-widget-window-iframe {
+        background: #1a1a2e;
+    }
+}
